@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Fredoka:wght@300..700&family=Geist+Pixel&family=Libertinus+Math&family=Patrick+Hand&family=Pirata+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#fdefe5;
+}
+
+/*INTRO SECTION START*/
+
+/*NAVIGATION BAR START*/
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px clamp(5px, 3vw, 50px)
+}
+
+.left h2{
+    font-size: clamp(22px, 3vw, 34px);
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    gap: clamp(10px, 3vw, 50px);
+    padding: 0px 20px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: clamp(11px, 3vw, 18px);
+}
+/*NAVIGATION BAR END*/
+
+/*INTRO SECTION START*/
+
+.intro main{
+    width: min(80%, 700px);
+}
+
+.intro{
+    background-color:#fdefe5;
+    padding: 20px clamp(20px, 3vw, 50px);
+}
+
+.intro h4{
+    padding: 5px;
+    font-size: clamp(13px, 3vw, 20px);
+}
+
+.intro h1{
+    padding: 0px 0px 10px 0px;
+    font-size: clamp(32px, 3vw, 48px);
+    font-family: "Patrick Hand", cursive;
+}
+
+.intro p{
+    padding: 0px 5px 20px 5px;
+    font-size: clamp(12px, 3vw, 24px);
+}
+
+.intro button{
+    padding: 8px clamp(16px, 3vw, 50px);
+    border-radius: 20px;
+    background-color: #d26d7b;
+    border: solid 1px;
+    transition: 0.3s ease;
+    font-size: clamp(5px, 3vw, 15px);
+}
+
+.intro button:hover{
+    cursor: pointer;
+    background-color: hsl(2, 53%, 61%);
+}  /*end of intro*/
+
+/*Start of Question*/
+
+.question-sctn{
+    background-color: #f0ebf1;
+    height:100%;
+    width: 100%;
+    display: none;
+}
+
+.left h2{
+    cursor: pointer;
+}
+
+.question-sctn header{
+    padding-left: clamp(30px, 3vw, 70px);
+    padding-right: clamp(30px, 2vw, 40px);
+    padding-top: 30px;
+}
+
+.question-sctn .right{
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(16px, 2vw, 20px);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-container{
+    width: 200px;
+    max-width: 100%;
+    top: 0;
+}
+
+#question-counter{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.question-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 20px 20px;
+}
+.question h3{
+    padding: 100px 20px 40px 20px;
+    font-family: "Libertinus Math", system-ui;
+    font-size: clamp(0.2rem, 3vw, 1.7rem);
+}
+.choices{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 0.8rem;
+}
+
+input[type="radio"]{
+    transform: scale(1.7);
+    width: 20px;
+    height: 20px;
+    border: 2px solid #999;
+    border-radius: 50%; /* Makes it a perfect circle */
+    transition: border-color 0.2s ease;
+    accent-color: #d26d7b;
+}
+
+.choices label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: clamp(13px, 1.5vw, 18px);
+}
+
+.result-btn{
+    font: clamp(1rem, 3vw, 1.1rem);
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #c46b8c;
+    color: #f2e5e5;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+
+#prev-btn{
+    border-radius: 20px;
+    background-color: #f1eaf1;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+#result-section{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 420px;
+    max-width: 900px;
+}
+
+#result-section h1{
+    font-size: clamp(2rem, 3vw, 3rem);
+}
