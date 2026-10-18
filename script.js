@@ -63,22 +63,22 @@ resultBtn.addEventListener("click", function () {
     };
 
     const resultDescription = {
-        INTJ: "INTJ (The Architect): Strategic, independent, and analytical problem-solvers. They are motivated by understanding complex systems and continuously improving processes.",
-        INTP: "INTP (The Thinker): Curious, analytical, and highly philosophical innovators. They are fascinated by conceptual models, theories, and objective, logical truth.",
-        ENTJ: "ENTJ (The Commander): Assertive, decisive, and goal-oriented leaders. They excel at organizing people, maximizing efficiency, and executing long-term plans.",
-        ENTP: "ENTP (The Debater): Inventive, energetic, and quick-witted intellectual innovators. They love to explore new ideas, challenge conventions, and engage in open debate.",
-        INFJ: "INFJ (The Advocate / Counselor): Creative, idealistic nurturers driven by a strong sense of personal integrity. They possess deep relational intuition and strive to help others fulfill their potential.",
-        INFP: "INFP (The Mediator / Healer): Gentle, quiet idealists who are guided by deep personal values and morals. They seek internal authenticity and meaning in everything they do.",
-        ENFJ: "ENFJ (The Protagonist): Charismatic, inspiring, and people-focused helpers. They have a natural gift for reading people, building consensus, and motivating others to grow.",
-        ENFP: "ENFP (The Campaigner / Champion): Enthusiastic, creative, and free-spirited creators. They constantly explore new possibilities and thrive on emotional, authentic connections.",
-        ISTJ: "ISTJ (The Logistician / Inspector): Dependable, disciplined, and practical. They value rules, duty, and tradition, relying on concrete facts and methodical execution.",
-        ISFJ: "ISFJ (The Defender): Warm, loyal, and nurturing protectors. They carefully observe the needs of others and are dedicated to maintaining security and harmony.",
-        ESTJ: "ESTJ (The Executive): Organized, confident, and highly practical. They are natural organizers who believe in structure, clear rules, and getting things done efficiently.",
-        ESFJ: "ESFJ (The Consul): Caring, sociable, and highly attentive to others. They thrive on community connection, social traditions, and ensuring everyone is well taken care of.",
-        ISTP: "ISTP (The Virtuoso): Independent, adaptable, and action-oriented. They love exploring how things work through direct experimentation and solving concrete, technical problems.",
-        ISFP: "ISFP (The Adventurer): Gentle, highly sensitive, and deeply artistic. They value authenticity, free expression, and experiencing life through their senses and feelings.",
-        ESTP: "ESTP (The Entrepreneur): Bold, energetic, and thrill-seeking. They excel at fast decisions, adapting immediately to physical situations, and navigating direct challenges.",
-        ESFP: "ESFP (The Entertainer): Playful, expressive, and full of life. They enjoy entertaining others, creating a vibrant atmosphere, and making the most out of the present moment.",};
+        INTJ: "(The Architect): Strategic, independent, and analytical problem-solvers. They are motivated by understanding complex systems and continuously improving processes.",
+        INTP: "(The Thinker): Curious, analytical, and highly philosophical innovators. They are fascinated by conceptual models, theories, and objective, logical truth.",
+        ENTJ: "(The Commander): Assertive, decisive, and goal-oriented leaders. They excel at organizing people, maximizing efficiency, and executing long-term plans.",
+        ENTP: "(The Debater): Inventive, energetic, and quick-witted intellectual innovators. They love to explore new ideas, challenge conventions, and engage in open debate.",
+        INFJ: "(The Advocate / Counselor): Creative, idealistic nurturers driven by a strong sense of personal integrity. They possess deep relational intuition and strive to help others fulfill their potential.",
+        INFP: "(The Mediator / Healer): Gentle, quiet idealists who are guided by deep personal values and morals. They seek internal authenticity and meaning in everything they do.",
+        ENFJ: "(The Protagonist): Charismatic, inspiring, and people-focused helpers. They have a natural gift for reading people, building consensus, and motivating others to grow.",
+        ENFP: "(The Campaigner / Champion): Enthusiastic, creative, and free-spirited creators. They constantly explore new possibilities and thrive on emotional, authentic connections.",
+        ISTJ: "(The Logistician / Inspector): Dependable, disciplined, and practical. They value rules, duty, and tradition, relying on concrete facts and methodical execution.",
+        ISFJ: "(The Defender): Warm, loyal, and nurturing protectors. They carefully observe the needs of others and are dedicated to maintaining security and harmony.",
+        ESTJ: "(The Executive): Organized, confident, and highly practical. They are natural organizers who believe in structure, clear rules, and getting things done efficiently.",
+        ESFJ: "(The Consul): Caring, sociable, and highly attentive to others. They thrive on community connection, social traditions, and ensuring everyone is well taken care of.",
+        ISTP: "(The Virtuoso): Independent, adaptable, and action-oriented. They love exploring how things work through direct experimentation and solving concrete, technical problems.",
+        ISFP: "(The Adventurer): Gentle, highly sensitive, and deeply artistic. They value authenticity, free expression, and experiencing life through their senses and feelings.",
+        ESTP: "(The Entrepreneur): Bold, energetic, and thrill-seeking. They excel at fast decisions, adapting immediately to physical situations, and navigating direct challenges.",
+        ESFP: "(The Entertainer): Playful, expressive, and full of life. They enjoy entertaining others, creating a vibrant atmosphere, and making the most out of the present moment.",};
 
     // 3. Calculate the four dimensions
     function getPreference(questions, first, second) {
